@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: We are searching two duplicate records in values table that has two items. In that case unit that contains these duplicate records could not have them in any other cell so we are safely eliminate numbers from "twins" in other cells of the unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We are adding new type of unit — "diagonal unit". And working with this unit as with any other type.
 
 ### Install
 
