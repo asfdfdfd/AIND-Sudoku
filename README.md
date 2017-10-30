@@ -7,7 +7,7 @@ A: We are searching two duplicate records in values table that has two items. In
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: We are adding new type of unit — "diagonal unit". And working with this unit as with any other type.
+A: We are adding new type of unit — "diagonal unit". There are two diagonal units. One is "A1,B2,C3,D4,E5,F6,G7,H8,J9", and second is "A9,B8,C7,D6,E5,F4,G3,H2,J1". They simplify search process because these units intersects with most of other units. So we have additional constraints that are stricter.
 
 ### Install
 
